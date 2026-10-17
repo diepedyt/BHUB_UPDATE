@@ -21,10 +21,7 @@ return {
             },
         },
         [3] = {
-            [1] = {
-                ["Title"] = "banana hub",
-                ["Content"] = "welcome to banana hub",
-            },
+
         },
         [4] = {
             [1] = {
