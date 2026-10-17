@@ -1,4 +1,4 @@
--- First run establishes a baseline. Later runs replay unseen versions in order.
+
 if type(isfile) ~= "function" or type(writefile) ~= "function" or type(readfile) ~= "function" then
     return
 end
@@ -6,7 +6,6 @@ end
 local player = game:GetService("Players").LocalPlayer
 if not player then return end
 
--- Preserve the existing filename so installed clients keep their last seen version.
 local filename = "SavedBHUBLOGReconcilation" .. tostring(game.GameId) .. player.Name
 local lastSeen = 0
 local readOK = pcall(function()
