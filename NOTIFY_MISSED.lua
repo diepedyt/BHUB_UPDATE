@@ -45,11 +45,11 @@ if isfile and writefile and readfile then
             if entry > lastNotifiedVers then
                 for _, update in pairs(gLog[lastNotifiedVers]) do
                     BHUB_NOTIFY({
-                        Title = update.Title,
-                        Content = update.Content,
+                        Title = update.Title or "",
+                        Content = update.Content or "",
                         Duration = update.Duration or 5,
                         Image = update.Image,
-                        Theme = update.Theme
+                        Theme = updated.Theme
                     })
                 end
             end
