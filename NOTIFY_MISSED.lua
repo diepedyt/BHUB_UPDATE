@@ -5,7 +5,7 @@ if isfile and writefile and readfile then
     
     local function get()
         task.spawn(function()
-            return isfile(fName) and readfile(fName)
+            return (isfile(fName) and readfile(fName))
         end)
     end
 
