@@ -26,5 +26,15 @@ return {
                 ["Content"] = "welcome to banana hub",
             },
         },
+        [4] = {
+            [1] = {
+                ["Title"] = "Banana Hub",
+                ["Content"] = "Welcome to Banana Hub",
+            },
+            [2] = {
+                ["Title"] = "Join the Discord",
+                ["Content"] = "Join our Discord at discord.gg/BananaHub",
+            },
+        },
     },
 }
