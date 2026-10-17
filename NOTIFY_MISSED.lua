@@ -52,7 +52,7 @@ for _, version in ipairs(versions) do
         for _, index in ipairs(indices) do
             local update = updates[index]
             local ok = pcall(notify, {
-                Title = update.Title or "",
+                Title = "New Script Update | " .. (update.Title or ""),
                 Content = update.Content or "",
                 Duration = update.Duration or 5,
                 Image = update.Image,
