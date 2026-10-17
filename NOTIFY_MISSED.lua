@@ -58,6 +58,7 @@ for _, version in ipairs(versions) do
                 Theme = update.Theme,
             })
             if not ok then return end
+            task.wait(0.085)
         end
         -- Persist only after dispatching this version successfully.
         if not pcall(writefile, filename, tostring(version)) then return end
