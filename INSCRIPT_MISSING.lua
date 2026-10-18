@@ -36,7 +36,7 @@ local TeleportService = game:GetService("TeleportService")
 local PlaceId, JobId = game.PlaceId, game.JobId
 pcall(notify, {
     Title = "Script Outdated",
-    Content = "A newer BHUB script update is available. Please rejoin the game and run BHUB again to get the latest version.",
+    Content = "Script Has Updated! Please rejoin the game and execute again to get the latest version.",
     Duration = 30,
     Actions = {
         {
