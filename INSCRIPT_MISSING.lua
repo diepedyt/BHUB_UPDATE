@@ -6,7 +6,7 @@ local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 if not player then return end
 
-local filename = "SavedBHUBLOGReconcilation" .. tostring(game.GameId) .. player.Name
+local filename = "SavedBHUBLOGReconcilation" .. tostring(game.GameId) .. player.Name .. ".txt"
 local readOK, currentVersion = pcall(function()
     if isfile(filename) then return tonumber(readfile(filename)) end
 end)
