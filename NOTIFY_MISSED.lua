@@ -6,8 +6,8 @@ end
 local player = game:GetService("Players").LocalPlayer
 if not player then return end
 
--- Preserve the existing filename so installed clients keep their last seen version.
-local filename = "SavedBHUBLOGReconcilation" .. tostring(game.GameId) .. player.Name
+-- Share the same .txt reconciliation filename with the in-script version check.
+local filename = "SavedBHUBLOGReconcilation" .. tostring(game.GameId) .. player.Name .. ".txt"
 local lastSeen = 0
 local readOK = pcall(function()
     if isfile(filename) then
