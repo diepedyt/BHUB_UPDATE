@@ -31,7 +31,7 @@ return {
                 ["Content"] = "Added auto haunted houses, best-house selection, and leave-on-floor settings.",
                 ["Image"] = "rbxassetid://99349055911447",
                 ["Theme"] = {
-                    ["SliderProgress"] = Color3.fromRGB(255, 255, 255),
+                    ["SliderProgress"] = Color3.fromRGB(255, 140, 0),
                 },
             },
             [2] = {
@@ -39,7 +39,7 @@ return {
                 ["Content"] = "Added auto Trick or Treat, Pumpkin Dice, and hourly/daily Halloween quest claims.",
                 ["Image"] = "rbxassetid://99349055911447",
                 ["Theme"] = {
-                    ["SliderProgress"] = Color3.fromRGB(255, 255, 255),
+                    ["SliderProgress"] = Color3.fromRGB(255, 140, 0),
                 },
             },
             [3] = {
@@ -47,7 +47,7 @@ return {
                 ["Content"] = "Added auto claim for free and premium Pumpkin Pass rewards.",
                 ["Image"] = "rbxassetid://99349055911447",
                 ["Theme"] = {
-                    ["SliderProgress"] = Color3.fromRGB(255, 255, 255),
+                    ["SliderProgress"] = Color3.fromRGB(255, 140, 0),
                 },
             },
             [4] = {
@@ -55,7 +55,7 @@ return {
                 ["Content"] = "Added Candy Shop auto-buy for Pumpkin Spin, Pumpkin Jackpot, and Witch's Jackpot, with buy-below limits.",
                 ["Image"] = "rbxassetid://99349055911447",
                 ["Theme"] = {
-                    ["SliderProgress"] = Color3.fromRGB(255, 255, 255),
+                    ["SliderProgress"] = Color3.fromRGB(255, 140, 0),
                 },
             },
         },
