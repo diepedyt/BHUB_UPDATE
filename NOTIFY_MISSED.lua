@@ -1,4 +1,5 @@
--- First run establishes a baseline. Later runs replay up to 10 messages, then summarize the rest.
+-- First run shows a game's sole version, or silently baselines a multi-version history.
+-- Replay up to 10 messages, then summarize the rest.
 if type(isfile) ~= "function" or type(writefile) ~= "function" or type(readfile) ~= "function" then
     return
 end
@@ -31,7 +32,7 @@ table.sort(versions)
 local latest = versions[#versions]
 if not latest or lastSeen >= latest then return end
 
-if lastSeen == 0 then
+if lastSeen == 0 and #versions > 1 then
     pcall(writefile, filename, tostring(latest))
     return
 end
