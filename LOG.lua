@@ -59,5 +59,26 @@ return {
                 },
             },
         },
+        [2] = {
+            [1] = {
+                ["Title"] = "Auto Trick or Treat",
+                ["Content"] = "Improved Auto Trick or Treat.",
+                ["Theme"] = {
+                    ["SliderProgress"] = Color3.fromRGB(255, 140, 0),
+                },
+            },
+            [2] = {
+                ["Title"] = "Auto Roll Traits",
+                ["Content"] = "Improved Auto Roll Traits.",
+            },
+            [3] = {
+                ["Title"] = "Auto Roll Grades",
+                ["Content"] = "Improved Auto Roll Grades.",
+            },
+            [4] = {
+                ["Title"] = "Auto Roll Quirks",
+                ["Content"] = "Improved Auto Roll Quirks.",
+            },
+        },
     },
 }
