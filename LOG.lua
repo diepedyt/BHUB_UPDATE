@@ -82,12 +82,12 @@ return {
         },
         [3] = {
             [1] = {
-                ["Title"] = "Halloween Tab: Auto Candy Upgrades",
-                ["Content"] = "Updated the Halloween tab and added Auto Candy Upgrades.",
+                ["Title"] = "Auto Candy Upgrades",
+                ["Content"] = "Added Auto Candy Upgrades to the Halloween tab.",
             },
             [2] = {
-                ["Title"] = "Halloween: Auto Exchanges",
-                ["Content"] = "Added Auto Exchanges to the Halloween tab.",
+                ["Title"] = "Auto Exchanges",
+                ["Content"] = "Added Auto Exchanges to the Dices tab.",
             },
             [3] = {
                 ["Title"] = "Auto Trick or Treat Improvements",
