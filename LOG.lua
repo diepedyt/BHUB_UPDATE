@@ -95,4 +95,28 @@ return {
             },
         },
     },
+    [10765288803] = {
+        [1] = {
+            [1] = {
+                ["Title"] = "Anti-Cheat Update",
+                ["Content"] = "Improved Anti-Cheat Bypass",
+            },
+            [2] = {
+                ["Title"] = "Halloween",
+                ["Content"] = "Improved Auto Halloween Events",
+            },
+            [3] = {
+                ["Title"] = "Auto Break Egg",
+                ["Content"] = "Improved",
+            },
+            [4] = {
+                ["Title"] = "Auto Steal Pets",
+                ["Content"] = "Improved",
+            },
+            [5] = {
+                ["Title"] = "Other Changes",
+                ["Content"] = "Background Changes",
+            },
+        },
+    },
 }
