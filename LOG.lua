@@ -80,5 +80,19 @@ return {
                 ["Content"] = "Improved Auto Roll Quirks.",
             },
         },
+        [3] = {
+            [1] = {
+                ["Title"] = "Halloween Tab: Auto Candy Upgrades",
+                ["Content"] = "Updated the Halloween tab and added Auto Candy Upgrades.",
+            },
+            [2] = {
+                ["Title"] = "Halloween: Auto Exchanges",
+                ["Content"] = "Added Auto Exchanges to the Halloween tab.",
+            },
+            [3] = {
+                ["Title"] = "Auto Trick or Treat Improvements",
+                ["Content"] = "Improved Auto Trick or Treat in the Halloween tab.",
+            },
+        },
     },
 }
