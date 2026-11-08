@@ -119,4 +119,18 @@ return {
             },
         },
     },
+    [10502841145] = {
+        [1] = {
+            [1] = {
+                ["Title"] = "Anime Astral - Automation Update",
+                ["Content"] = "Added automation for Guild Missions, Rank Ladders, Gang Wanted posters and Event Research / Unlocks.\010Added Fixer Gigs management, artifact crafting and missing Celestial Key collection.\010Added helper placement options, Dragon Slayer training, Bloodline training and Transformation training.",
+                ["Duration"] = 12,
+            },
+            [2] = {
+                ["Title"] = "Anime Astral - Rewards & Abilities",
+                ["Content"] = "Added auto-claim options for Welcome, Time and Daily Rewards that wait for inventory space.\010Added selected Battlepass reward claims, selected ability deployment and Chakra training selection.\010Auto Use Codes now tracks attempted codes and allows retrying codes rejected by the redemption cooldown.",
+                ["Duration"] = 12,
+            },
+        },
+    },
 }
