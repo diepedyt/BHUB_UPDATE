@@ -94,6 +94,24 @@ return {
                 ["Content"] = "Improved Auto Trick or Treat in the Halloween tab.",
             },
         },
+        [4] = {
+            [1] = {
+                ["Title"] = "Added Autumn (1) Tab",
+                ["Content"] = "Auto Do Selected Leaf Tower\010Auto Leave On Leaf Tower Floor\010Webhook Leaf Tower Drops",
+            },
+            [2] = {
+                ["Title"] = "Added Autumn (2) Tab",
+                ["Content"] = "Auto Collect Apples\010Auto Roll Leaf Dice\010Auto Set Leaf Dice Auto Sell\010Auto Claim Hourly / Daily Autumn Quests",
+            },
+            [3] = {
+                ["Title"] = "Added Autumn (3) Tab",
+                ["Content"] = "Auto Upgrade Apple Tree\010Auto Upgrade Apple Board",
+            },
+            [4] = {
+                ["Title"] = "Added Autumn (4) Tab",
+                ["Content"] = "Auto Buy Apple Shop Items",
+            },
+        },
     },
     [10765288803] = {
         [1] = {
